@@ -33,6 +33,7 @@ public class FxQuoteRequestTest extends MockedServersTest {
         assertEquals(FxSymbols.EURUSD, eurusd.getSymbol());
         assertEquals(new BigDecimal("1.0954"), eurchf.getPrice());
         assertEquals(FxSymbols.EURCHF, eurchf.getSymbol());
+        System.out.println("Kush Patel");
     }
 
     @Test
